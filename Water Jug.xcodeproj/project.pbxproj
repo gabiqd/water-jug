@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065A128027EA3DB1009C1673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A127F27EA3DB1009C1673 /* AppDelegate.swift */; };
+		065A128227EA3DB1009C1673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A128127EA3DB1009C1673 /* SceneDelegate.swift */; };
+		065A128427EA3DB1009C1673 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A128327EA3DB1009C1673 /* ResultViewController.swift */; };
+		065A128927EA3DB3009C1673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065A128827EA3DB3009C1673 /* Assets.xcassets */; };
+		065A128C27EA3DB3009C1673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065A128A27EA3DB3009C1673 /* LaunchScreen.storyboard */; };
+		065A129427EA3DE6009C1673 /* WaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129327EA3DE6009C1673 /* WaveAnimationView.swift */; };
+		065A129727EA3EED009C1673 /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129627EA3EED009C1673 /* StyledButton.swift */; };
+		065A129927EA3F1B009C1673 /* AppPersonalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129827EA3F1B009C1673 /* AppPersonalization.swift */; };
+		065A129B27EA8563009C1673 /* StyledAlternativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129A27EA8563009C1673 /* StyledAlternativeButton.swift */; };
+		065A129D27EA9EF5009C1673 /* BucketSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129C27EA9EF5009C1673 /* BucketSizeViewController.swift */; };
+		065A129F27EA9FA3009C1673 /* WaterJugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A129E27EA9FA3009C1673 /* WaterJugView.swift */; };
+		065A12A127EAAFB9009C1673 /* SelectBucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12A027EAAFB9009C1673 /* SelectBucketViewController.swift */; };
+		065A12A327EAB10A009C1673 /* WaterJugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12A227EAB10A009C1673 /* WaterJugViewModel.swift */; };
+		065A12A727EAB166009C1673 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12A627EAB166009C1673 /* Step.swift */; };
+		065A12AD27EAB435009C1673 /* SimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12AC27EAB435009C1673 /* SimulationViewController.swift */; };
+		065A12AF27EAE206009C1673 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12AE27EAE206009C1673 /* NavigationViewController.swift */; };
+		065A12B227EAE589009C1673 /* BucketSizeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12B127EAE589009C1673 /* BucketSizeDelegate.swift */; };
+		065A12B527EAE788009C1673 /* WaterJugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12B427EAE788009C1673 /* WaterJugModel.swift */; };
+		065A12B727EAF150009C1673 /* SelectBucketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12B627EAF150009C1673 /* SelectBucketViewModel.swift */; };
+		065A12C227EBAE46009C1673 /* Water_JugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A12C127EBAE46009C1673 /* Water_JugTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065A12C327EBAE46009C1673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065A127427EA3DB1009C1673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065A127B27EA3DB1009C1673;
+			remoteInfo = "Water Jug";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065A127C27EA3DB1009C1673 /* Water Jug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Jug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065A127F27EA3DB1009C1673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065A128127EA3DB1009C1673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		065A128327EA3DB1009C1673 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		065A128827EA3DB3009C1673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065A128B27EA3DB3009C1673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065A128D27EA3DB3009C1673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065A129327EA3DE6009C1673 /* WaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimationView.swift; sourceTree = "<group>"; };
+		065A129627EA3EED009C1673 /* StyledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
+		065A129827EA3F1B009C1673 /* AppPersonalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersonalization.swift; sourceTree = "<group>"; };
+		065A129A27EA8563009C1673 /* StyledAlternativeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledAlternativeButton.swift; sourceTree = "<group>"; };
+		065A129C27EA9EF5009C1673 /* BucketSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSizeViewController.swift; sourceTree = "<group>"; };
+		065A129E27EA9FA3009C1673 /* WaterJugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugView.swift; sourceTree = "<group>"; };
+		065A12A027EAAFB9009C1673 /* SelectBucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBucketViewController.swift; sourceTree = "<group>"; };
+		065A12A227EAB10A009C1673 /* WaterJugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugViewModel.swift; sourceTree = "<group>"; };
+		065A12A627EAB166009C1673 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		065A12AC27EAB435009C1673 /* SimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationViewController.swift; sourceTree = "<group>"; };
+		065A12AE27EAE206009C1673 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		065A12B127EAE589009C1673 /* BucketSizeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSizeDelegate.swift; sourceTree = "<group>"; };
+		065A12B427EAE788009C1673 /* WaterJugModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterJugModel.swift; sourceTree = "<group>"; };
+		065A12B627EAF150009C1673 /* SelectBucketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBucketViewModel.swift; sourceTree = "<group>"; };
+		065A12BF27EBAE45009C1673 /* Water JugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water JugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		065A12C127EBAE46009C1673 /* Water_JugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_JugTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065A127927EA3DB1009C1673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A12BC27EBAE45009C1673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065A127327EA3DB1009C1673 = {
+			isa = PBXGroup;
+			children = (
+				065A127E27EA3DB1009C1673 /* Water Jug */,
+				065A12C027EBAE46009C1673 /* Water JugTests */,
+				065A127D27EA3DB1009C1673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065A127D27EA3DB1009C1673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065A127C27EA3DB1009C1673 /* Water Jug.app */,
+				065A12BF27EBAE45009C1673 /* Water JugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065A127E27EA3DB1009C1673 /* Water Jug */ = {
+			isa = PBXGroup;
+			children = (
+				065A12B327EAE77E009C1673 /* Model */,
+				065A12B027EAE55E009C1673 /* Delegates */,
+				065A12AB27EAB277009C1673 /* Utils */,
+				065A12A927EAB24F009C1673 /* ViewModel */,
+				065A12A827EAB22C009C1673 /* ViewControllers */,
+				065A129527EA3E02009C1673 /* Views */,
+				065A128A27EA3DB3009C1673 /* LaunchScreen.storyboard */,
+				065A128827EA3DB3009C1673 /* Assets.xcassets */,
+				065A128D27EA3DB3009C1673 /* Info.plist */,
+			);
+			path = "Water Jug";
+			sourceTree = "<group>";
+		};
+		065A129527EA3E02009C1673 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				065A129327EA3DE6009C1673 /* WaveAnimationView.swift */,
+				065A129627EA3EED009C1673 /* StyledButton.swift */,
+				065A129A27EA8563009C1673 /* StyledAlternativeButton.swift */,
+				065A129E27EA9FA3009C1673 /* WaterJugView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		065A12A827EAB22C009C1673 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				065A128327EA3DB1009C1673 /* ResultViewController.swift */,
+				065A129C27EA9EF5009C1673 /* BucketSizeViewController.swift */,
+				065A12A027EAAFB9009C1673 /* SelectBucketViewController.swift */,
+				065A12AC27EAB435009C1673 /* SimulationViewController.swift */,
+				065A12AE27EAE206009C1673 /* NavigationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		065A12A927EAB24F009C1673 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				065A12A227EAB10A009C1673 /* WaterJugViewModel.swift */,
+				065A12B627EAF150009C1673 /* SelectBucketViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		065A12AB27EAB277009C1673 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				065A129827EA3F1B009C1673 /* AppPersonalization.swift */,
+				065A127F27EA3DB1009C1673 /* AppDelegate.swift */,
+				065A128127EA3DB1009C1673 /* SceneDelegate.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		065A12B027EAE55E009C1673 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				065A12B127EAE589009C1673 /* BucketSizeDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		065A12B327EAE77E009C1673 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				065A12B427EAE788009C1673 /* WaterJugModel.swift */,
+				065A12A627EAB166009C1673 /* Step.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		065A12C027EBAE46009C1673 /* Water JugTests */ = {
+			isa = PBXGroup;
+			children = (
+				065A12C127EBAE46009C1673 /* Water_JugTests.swift */,
+			);
+			path = "Water JugTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065A127B27EA3DB1009C1673 /* Water Jug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A129027EA3DB3009C1673 /* Build configuration list for PBXNativeTarget "Water Jug" */;
+			buildPhases = (
+				065A127827EA3DB1009C1673 /* Sources */,
+				065A127927EA3DB1009C1673 /* Frameworks */,
+				065A127A27EA3DB1009C1673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Jug";
+			productName = "Water Jug";
+			productReference = 065A127C27EA3DB1009C1673 /* Water Jug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065A12BE27EBAE45009C1673 /* Water JugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A12C527EBAE46009C1673 /* Build configuration list for PBXNativeTarget "Water JugTests" */;
+			buildPhases = (
+				065A12BB27EBAE45009C1673 /* Sources */,
+				065A12BC27EBAE45009C1673 /* Frameworks */,
+				065A12BD27EBAE45009C1673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065A12C427EBAE46009C1673 /* PBXTargetDependency */,
+			);
+			name = "Water JugTests";
+			productName = "Water JugTests";
+			productReference = 065A12BF27EBAE45009C1673 /* Water JugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065A127427EA3DB1009C1673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					065A127B27EA3DB1009C1673 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					065A12BE27EBAE45009C1673 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 065A127B27EA3DB1009C1673;
+					};
+				};
+			};
+			buildConfigurationList = 065A127727EA3DB1009C1673 /* Build configuration list for PBXProject "Water Jug" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065A127327EA3DB1009C1673;
+			productRefGroup = 065A127D27EA3DB1009C1673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065A127B27EA3DB1009C1673 /* Water Jug */,
+				065A12BE27EBAE45009C1673 /* Water JugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065A127A27EA3DB1009C1673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A128C27EA3DB3009C1673 /* LaunchScreen.storyboard in Resources */,
+				065A128927EA3DB3009C1673 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A12BD27EBAE45009C1673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065A127827EA3DB1009C1673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A129427EA3DE6009C1673 /* WaveAnimationView.swift in Sources */,
+				065A129D27EA9EF5009C1673 /* BucketSizeViewController.swift in Sources */,
+				065A128427EA3DB1009C1673 /* ResultViewController.swift in Sources */,
+				065A12AF27EAE206009C1673 /* NavigationViewController.swift in Sources */,
+				065A129727EA3EED009C1673 /* StyledButton.swift in Sources */,
+				065A128027EA3DB1009C1673 /* AppDelegate.swift in Sources */,
+				065A12B227EAE589009C1673 /* BucketSizeDelegate.swift in Sources */,
+				065A129927EA3F1B009C1673 /* AppPersonalization.swift in Sources */,
+				065A129B27EA8563009C1673 /* StyledAlternativeButton.swift in Sources */,
+				065A129F27EA9FA3009C1673 /* WaterJugView.swift in Sources */,
+				065A12A127EAAFB9009C1673 /* SelectBucketViewController.swift in Sources */,
+				065A128227EA3DB1009C1673 /* SceneDelegate.swift in Sources */,
+				065A12AD27EAB435009C1673 /* SimulationViewController.swift in Sources */,
+				065A12B727EAF150009C1673 /* SelectBucketViewModel.swift in Sources */,
+				065A12A727EAB166009C1673 /* Step.swift in Sources */,
+				065A12B527EAE788009C1673 /* WaterJugModel.swift in Sources */,
+				065A12A327EAB10A009C1673 /* WaterJugViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A12BB27EBAE45009C1673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A12C227EBAE46009C1673 /* Water_JugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065A12C427EBAE46009C1673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065A127B27EA3DB1009C1673 /* Water Jug */;
+			targetProxy = 065A12C327EBAE46009C1673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065A128A27EA3DB3009C1673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065A128B27EA3DB3009C1673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065A128E27EA3DB3009C1673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065A128F27EA3DB3009C1673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065A129127EA3DB3009C1673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water Jug/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gqd.Water-Jug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		065A129227EA3DB3009C1673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water Jug/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gqd.Water-Jug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		065A12C627EBAE46009C1673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gqd.Water-JugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Jug.app/Water Jug";
+			};
+			name = Debug;
+		};
+		065A12C727EBAE46009C1673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gqd.Water-JugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Jug.app/Water Jug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065A127727EA3DB1009C1673 /* Build configuration list for PBXProject "Water Jug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A128E27EA3DB3009C1673 /* Debug */,
+				065A128F27EA3DB3009C1673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065A129027EA3DB3009C1673 /* Build configuration list for PBXNativeTarget "Water Jug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A129127EA3DB3009C1673 /* Debug */,
+				065A129227EA3DB3009C1673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065A12C527EBAE46009C1673 /* Build configuration list for PBXNativeTarget "Water JugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A12C627EBAE46009C1673 /* Debug */,
+				065A12C727EBAE46009C1673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065A127427EA3DB1009C1673 /* Project object */;
+}
